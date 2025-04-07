@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+   
+    color: rgb(94, 46, 12);
+}
+
+header {
+    background-color: rgb(94, 46, 12);
+    color: rgb(241, 178, 133);
+    padding: 40px;
+    position: fixed ;
+    width: 1800px;
+    height: 230px;
+    
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 60px;
+    justify-content: center;
+    margin-right: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 200px;
+    list-style-type: none;
+  
+}
+
+nav ul li { 
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #fff;
+    
+   
+}
+
+#logo-design{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+    margin-top: 220px;
+    z-index: -1;
+ 
+}
+
+#illustration{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+ 
+
+}
+
+#editing{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+ 
+
+}
+
+
+#photography{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+  
+ 
+
+}
+#artworks{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+ 
+
+}
+#crafts{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 450px;
+ 
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+    background-color: rgb(241, 178, 133);
+    width: 230px;
+    align-items: center;
+    margin-left: 630px;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.gallery-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    float: left;
+  
+     
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+
+
+.navlist {
+    display: flex;
+    gap: 3.5rem;
+    height: 50px;
+    width: 1600px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(242, 218, 201);
+}
+
+.navlist li a:hover {
+    color: rgb(240, 227, 227);
+    font-size: larger;
+    background-color: rgb(149, 97, 7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+    
+    header {
+        background-color: rgb(94, 46, 12);
+        color: rgb(241, 178, 133);
+        padding: 40px;
+        position: fixed ;
+        width: 400px;
+        height: 210px;
+        position: fixed;
+    }
+    
+    header h1 {
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        list-style-type: none;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+       
+    }
+    
+    nav ul li { 
+        margin: 0 20px;
+        
+        
+    
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        font-size: small;
+       
+}
+#logo-design{
+   
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 2300px;
+    margin-top: 200px;
+    z-index: -1;
+    flex-direction: column;
+ 
+}
+
+#illustration{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 2050px;
+    flex-direction: column;
+
+}
+
+#editing{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 2680px;
+    flex-direction: column;
+
+}
+
+
+#photography{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 1540px;
+    flex-direction: column;
+ 
+
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+    background-color: rgb(241, 178, 133);
+    width: 230px;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+#artworks{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 2600px;
+ 
+
+}
+#crafts{
+    margin-top: 40px;
+    background-color: rgb(242, 218, 201);
+    padding-top: 20px;
+    height: 2040px;
+ 
+
+}
+.navlist {
+        display: flex;
+    gap: 1rem;
+    height: 60px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem 0;
+    z-index: 1000;
+    
+    }
+
+    .navlist li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: rgb(242, 218, 201);
+        margin-left: 1px;
+        
+    }
+    
+    .navlist li a:hover {
+        color: black;
+        font-size: larger;
+        background-color: rgb(149, 97, 7);
+    }
+
